@@ -1,6 +1,8 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+#include "miryoku_behaviors.h"
+
 //#define MIRYOKU_LAYOUTMAPPING_CORNE( \
 //#if defined (MIRYOKU_KEYBOARD_CORNE)
 // changes (for keyboardio m100 muscle memory):
