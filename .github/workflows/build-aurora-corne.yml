@@ -1,5 +1,6 @@
 name: 'Build Aurora Corne'
-on: workflow_dispatch
+on: 
+  - push
 jobs:
   build:
     uses: ./.github/workflows/main.yml
