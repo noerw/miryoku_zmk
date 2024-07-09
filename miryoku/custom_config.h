@@ -10,10 +10,9 @@
 #define C32 U_LT(U_MEDIA, DEL)
 #define C33 U_LT(U_NAV, BSPC)
 #define C34 U_LT(U_MOUSE, TAB)
-// pretty sure we dont need that, could use a tap shift?
-#define C35 U_LT(U_SYM, ESC)
+#define C35 U_LT(U_SYM, RET)
 #define C36 U_LT(U_NUM, SPACE)
-#define C37 U_LT(U_FUN, RET)
+#define C37 U_LT_SK(U_FUN, LSHIFT)
 
 // right pinky: default en_us layout
 #define C19 U_MT(LGUI, SEMICOLON)
