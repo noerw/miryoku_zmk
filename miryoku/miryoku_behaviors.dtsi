@@ -21,5 +21,15 @@
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
     };
+    u_lt_sk: u_lt_sk {
+      compatible = "zmk,behavior-hold-tap";
+      // compatible = "zmk,behavior-hold-tap,behavior-sticky-key";
+      #binding-cells = <2>;
+      tapping-term-ms = <U_TAPPING_TERM>;
+      quick-tap-ms = <U_TAPPING_TERM>;
+      require-prior-idle-ms = <125>;
+      flavor = "tap-preferred";
+      bindings = <&mo>, <&sk>;
+    };
   };
 };
