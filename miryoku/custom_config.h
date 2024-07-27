@@ -10,9 +10,9 @@
 #define C32 U_LT(U_MEDIA, DEL)
 #define C33 U_LT(U_NAV, BSPC)
 #define C34 U_LT(U_MOUSE, TAB)
-#define C35 U_LT(U_SYM, RET)
+#define C35 U_LT(U_SYM, LSHIFT)
 #define C36 U_LT(U_NUM, SPACE)
-#define C37 U_LT_SK(U_FUN, LSHIFT)
+#define C37 U_LT_SK(U_FUN, RET)
 
 // right pinky: default en_us layout
 #define C19 U_MT(LGUI, SEMICOLON)
